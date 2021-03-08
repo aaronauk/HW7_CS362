@@ -7,3 +7,5 @@ def fizzBuzz(n):
         return 'Fizz'
     elif (n % 5 == 0):
         return 'Buzz'
+    else:
+        return n
