@@ -5,3 +5,5 @@ def leapYear(y):
         return False
     if (y % 100 != 0):
         return True
+    if (y % 400 == 0):
+        return True
